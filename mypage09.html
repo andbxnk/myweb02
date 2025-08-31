@@ -6,36 +6,79 @@
     <title>Document</title>
   </head>
   <body>
-    <table style="text-align: center" border="1px" width="500">
+    <!-- Table TAG แท็กที่ใช้ในการทำตาราง อยู่ในกลุ่ม Block TAG เป็นแบบ TAG คู่ -->
+    <!-- ตารางที่แต่ละแถวที่จำนวนคอลัมน์เท่ากัน (Row แถว / Column สดมภ์) -->
+    <h1>ตารางแบบที่ 1</h1>
+    <table border="1px" width="600">
       <tr>
+        <td>11</td>
+        <td>22</td>
+        <td>33</td>
+        <td>44</td>
+        <td>55</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>22</td>
+        <td>33</td>
+        <td>44</td>
+        <td>55</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>22</td>
+        <td>33</td>
+        <td>44</td>
+        <td>55</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>22</td>
+        <td>33</td>
+        <td>44</td>
+        <td>55</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>22</td>
+        <td>33</td>
+        <td>44</td>
+        <td>55</td>
+      </tr>
+    </table>
+    <br />
+    <!-- ตารางที่แต่ละแถวที่จำนวนคอลัมน์ไม่เท่ากัน (Row แถว / Column สดมภ์)-->
+    <h1>ตารางแบบที่ 2 (แต่ละช่องของตารางขนาดไม่เท่ากัน)</h1>
+    <table style="text-align: center" border="1px" width="500">
+      <tr style="background-color: yellow">
         <td colspan="2" rowspan="2">a</td>
         <td>b</td>
         <td>c</td>
         <td>d</td>
       </tr>
-      <tr>
+      <tr style="background-color: green">
         <td colspan="2">e</td>
         <td rowspan="2">f</td>
       </tr>
-      <tr>
+      <tr style="background-color: aqua">
         <td>g</td>
         <td>h</td>
         <td>i</td>
         <td rowspan="3">j</td>
       </tr>
-      <tr>
+      <tr style="background-color: rosybrown">
         <td colspan="3">k</td>
         <td>l</td>
       </tr>
       <tr>
-        <td colspan="2">m</td>
+        <td colspan="2" style="background-color: purple">m</td>
         <td>n</td>
         <td>o</td>
       </tr>
     </table>
-
-    <h1>WorkShop Table</h1>
-    <table style="text-align: center" border="1px" width="500">
+    <br />
+    <h1>Workshop Table ครั้งที่ 1</h1>
+    <table border="1px" width="500" style="text-align: center">
       <tr style="background-color: yellow">
         <td colspan="2" rowspan="2">a</td>
         <td>b</td>
@@ -45,7 +88,7 @@
       <tr style="background-color: blue">
         <td colspan="2">e</td>
       </tr>
-      <tr style="background-color: rgb(129, 180, 51)">
+      <tr style="background-color: darkseagreen">
         <td rowspan="2">f</td>
         <td colspan="3">g</td>
         <td>h</td>
